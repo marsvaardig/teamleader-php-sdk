@@ -23,6 +23,8 @@ class Product extends Model
         'code',
         'purchase_price', // { "amount": "", "currency": "" }
         'selling_price',  // { "amount": "", "currency": "" }
+        'custom_fields',
+        'price_list_prices',
     ];
 
     /**
